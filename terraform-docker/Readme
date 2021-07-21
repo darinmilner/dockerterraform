@@ -1,0 +1,12 @@
+Docker deployment Infrastructure as Code written in Terraform
+
+This example pulls Nodered, Grafana, and InfluxDB images from
+Dockerhub and creates a network with volumes and containers of
+the images.  
+
+This example uses variables and modules to make it more reusable.
+tfstate files are not checked into Github and can be stored
+locally or in an AWS S3 bucket or on Terraform Cloud. 
+
+noderedvol folder is included as an example of saving data from the 
+nodered container when it is destroyed.

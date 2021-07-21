@@ -1,0 +1,7 @@
+variable "volumeCount" {
+
+}
+
+variable "volumeName" {
+
+}
